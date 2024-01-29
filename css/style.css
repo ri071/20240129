@@ -21,19 +21,21 @@ li {
     margin: 0 0 0 15px;
     color: #00f;
 }
+main {
+    position: relative;
+}
 .main__title {
     font-size: 60px;
     font-weight: lighter;
-    margin: 350px 0 0 0;
-    position: relative;
+    margin: 400px 0 0 0;
+    position: absolute;
 }
 img {
-    width: 830px;
+    width: 820px;
     height: 450px;
     position: absolute;
-    bottom: 140px;
+    top: 100px;
     left: 700px;
-    position: absolute;
     z-index: 2;
 }
 .below {
@@ -41,7 +43,7 @@ img {
     height: 150px;
     width: 1000px;
     position: absolute;
-    bottom: 85px;
+    top: 470px;
     z-index: 1;
     
 }
