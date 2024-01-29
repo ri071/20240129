@@ -1,0 +1,47 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header__title {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #00f;
+}
+.header__menu {
+    margin: 0 0 0 auto;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin: 0 0 0 15px;
+    color: #00f;
+}
+.main__title {
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 350px 0 0 0;
+    position: relative;
+}
+img {
+    width: 830px;
+    height: 450px;
+    position: absolute;
+    bottom: 140px;
+    left: 700px;
+    position: absolute;
+    z-index: 2;
+}
+.below {
+    background-color: #00f;
+    height: 150px;
+    width: 1000px;
+    position: absolute;
+    bottom: 85px;
+    z-index: 1;
+    
+}
