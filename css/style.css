@@ -12,6 +12,7 @@ header {
 }
 .header__menu {
     margin-left: 950px;
+    white-space: nowrap;
 }
 ul {
     list-style: none;
